@@ -43,8 +43,8 @@ public class BoatAI : MonoBehaviour
 
         direction = (waypoints[index].transform.position - transform.position).normalized;
         rotGoal = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotGoal, turnSpeed);
-        //transform.LookAt(waypoints[index].transform.position);
+       transform.rotation = Quaternion.Slerp(transform.rotation, rotGoal, turnSpeed);
+      //  transform.LookAt(waypoints[index].transform.position);
        // Debug.Log("OFF");
        // StartRotating();
     }
