@@ -16,7 +16,7 @@ MonoBehaviour:
   - m_From: 1stCamera
     m_To: LookUpCamera
     m_Blend:
-      m_Style: 2
+      m_Style: 0
       m_Time: 2
       m_CustomCurve:
         serializedVersion: 2
