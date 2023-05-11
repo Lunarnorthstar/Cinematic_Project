@@ -27,7 +27,7 @@ MonoBehaviour:
   - m_From: LookUpCamera
     m_To: SideFollowCamera
     m_Blend:
-      m_Style: 0
+      m_Style: 2
       m_Time: 2
       m_CustomCurve:
         serializedVersion: 2
@@ -38,7 +38,7 @@ MonoBehaviour:
   - m_From: SideFollowCamera
     m_To: Birds eye Camera
     m_Blend:
-      m_Style: 2
+      m_Style: 0
       m_Time: 1
       m_CustomCurve:
         serializedVersion: 2
