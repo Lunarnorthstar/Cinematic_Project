@@ -38,8 +38,8 @@ MonoBehaviour:
   - m_From: SideFollowCamera
     m_To: Birds eye Camera
     m_Blend:
-      m_Style: 0
-      m_Time: 1
+      m_Style: 2
+      m_Time: 3
       m_CustomCurve:
         serializedVersion: 2
         m_Curve: []
@@ -47,7 +47,7 @@ MonoBehaviour:
         m_PostInfinity: 0
         m_RotationOrder: 0
   - m_From: Birds eye Camera
-    m_To: AirshipWithIslandView
+    m_To: CannonCam
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -57,18 +57,7 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: AirshipWithIslandView
-    m_To: CannonView
-    m_Blend:
-      m_Style: 0
-      m_Time: 2
-      m_CustomCurve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-  - m_From: CannonView
+  - m_From: CannonCam
     m_To: WaterCamera
     m_Blend:
       m_Style: 0
