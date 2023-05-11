@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: LookUpCamera Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 4751703519403098521}
+  - {fileID: 2205432701946610432}
   - {fileID: 6794657196845124992}
---- !u!114 &4751703519403098521
+--- !u!114 &2205432701946610432
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,7 +30,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   intensity:
     m_OverrideState: 1
     m_Value: 10
@@ -60,7 +60,7 @@ MonoBehaviour:
     m_Value: 1
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 12
 --- !u!114 &6794657196845124992
 MonoBehaviour:
   m_ObjectHideFlags: 3

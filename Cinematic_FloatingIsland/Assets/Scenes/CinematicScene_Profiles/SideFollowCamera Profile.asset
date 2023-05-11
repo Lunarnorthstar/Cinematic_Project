@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Value: 50
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 4000
+    m_Value: 3500
   farFocusEnd:
     m_OverrideState: 1
     m_Value: 10000
