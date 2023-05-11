@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1339.7428, g: 994.51776, b: 771.5755, a: 1}
+  m_IndirectSpecularColor: {r: 1414.2074, g: 1073.0435, b: 876.1665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61653615}
   - component: {fileID: 61653614}
+  - component: {fileID: 61653616}
   m_Layer: 0
   m_Name: TransitionEnding
   m_TagString: Untagged
@@ -192,7 +193,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61653613}
-  m_LocalRotation: {x: 0.3917694, y: 0.5870818, z: -0.38808352, w: 0.5926576}
+  m_LocalRotation: {x: 0.39176938, y: 0.5870818, z: -0.3880836, w: 0.5926575}
   m_LocalPosition: {x: -683, y: 10, z: -1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -201,6 +202,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 5.439, y: -88.963, z: 0}
+--- !u!114 &61653616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61653613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: ec849373040e4f048a6d6404637d7307, type: 2}
 --- !u!1 &118643829
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +786,7 @@ GameObject:
   - component: {fileID: 441042650}
   - component: {fileID: 441042649}
   - component: {fileID: 441042651}
+  - component: {fileID: 441042652}
   m_Layer: 0
   m_Name: CannonCam
   m_TagString: Untagged
@@ -856,6 +875,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &441042652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441042648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 18.21
+  m_Profile: {fileID: 11400000, guid: 722742bcc3c180747b11af10a1a28d90, type: 2}
 --- !u!1 &463744800
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &463744801
 RectTransform:
   m_ObjectHideFlags: 0
@@ -942,13 +978,14 @@ GameObject:
   m_Component:
   - component: {fileID: 492949293}
   - component: {fileID: 492949292}
+  - component: {fileID: 492949294}
   m_Layer: 0
   m_Name: SideFollowCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &492949292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,7 +1038,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492949291}
-  m_LocalRotation: {x: -0.10040755, y: 0.8972701, z: -0.26802364, w: -0.33613706}
+  m_LocalRotation: {x: -0.10040753, y: 0.89727014, z: -0.26802364, w: -0.33613706}
   m_LocalPosition: {x: -397.09552, y: -377.23578, z: 97.416695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1010,6 +1047,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492949294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492949291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 29dbea48e4b303b40ae98f25f9c06c0c, type: 2}
 --- !u!1 &516256343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532277604}
   - component: {fileID: 532277603}
+  - component: {fileID: 532277605}
   m_Layer: 0
   m_Name: LookUpCamera
   m_TagString: Untagged
@@ -1229,7 +1284,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532277602}
-  m_LocalRotation: {x: 0.45307663, y: -0.5428827, z: 0.45307696, w: 0.54288244}
+  m_LocalRotation: {x: -0.031832993, y: -0.7032406, z: -0.031550467, w: 0.70953786}
   m_LocalPosition: {x: -397.9999, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1238,6 +1293,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &532277605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532277602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 90398c8b889871a4694f0dccf7d7674e, type: 2}
 --- !u!1 &607741541
 GameObject:
   m_ObjectHideFlags: 3
@@ -1724,13 +1796,14 @@ GameObject:
   - component: {fileID: 841152075}
   - component: {fileID: 841152074}
   - component: {fileID: 841152076}
+  - component: {fileID: 841152077}
   m_Layer: 0
   m_Name: Birds eye Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &841152074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,6 +1885,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &841152077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841152073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 50
+  m_Profile: {fileID: 11400000, guid: 9307eb4c67cd65646a7de6ac31badb9a, type: 2}
 --- !u!1 &879094893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879094895}
   - component: {fileID: 879094894}
+  - component: {fileID: 879094896}
   m_Layer: 0
   m_Name: AirshipWithIslandView
   m_TagString: Untagged
@@ -1890,6 +1981,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &879094896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879094893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: cc2bdddf87a93d244902268712c9b89a, type: 2}
 --- !u!1 &941749005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,7 +2014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &941749006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2181,7 +2289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 2036445302}
-  m_PathPosition: 7.47438
+  m_PathPosition: 0
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
@@ -2350,6 +2458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330068120}
   - component: {fileID: 1330068119}
+  - component: {fileID: 1330068121}
   m_Layer: 0
   m_Name: GrowingCam
   m_TagString: Untagged
@@ -2418,6 +2527,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1330068121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330068118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: ab63c922b918b6841bbc04582dcd469f, type: 2}
 --- !u!1 &1335217656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +2554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335217658}
   - component: {fileID: 1335217657}
+  - component: {fileID: 1335217659}
   m_Layer: 0
   m_Name: Ending Camera
   m_TagString: Untagged
@@ -2496,6 +2623,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 37.529, y: 0, z: 0}
+--- !u!114 &1335217659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335217656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 7573a7dcc31293d4b99fb245b6248d30, type: 2}
 --- !u!1 &1422874747
 GameObject:
   m_ObjectHideFlags: 3
@@ -3267,8 +3411,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_LocalRotation: {x: -0.10040755, y: 0.8972701, z: -0.26802364, w: -0.33613706}
-  m_LocalPosition: {x: -397.09552, y: -377.23578, z: 97.416695}
+  m_LocalRotation: {x: 0, y: -0.929302, z: 0, w: 0.36932084}
+  m_LocalPosition: {x: -777, y: 30.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3445,6 +3589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843875284}
   - component: {fileID: 1843875283}
+  - component: {fileID: 1843875285}
   m_Layer: 0
   m_Name: WaterCamera
   m_TagString: Untagged
@@ -3513,6 +3658,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -10.549, y: -90, z: 0}
+--- !u!114 &1843875285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843875282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: ecc6db7f58eb13644abf51b2ff83be49, type: 2}
 --- !u!1 &1966518518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,7 +3693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1966518519
 Transform:
   m_ObjectHideFlags: 0
@@ -3789,7 +3951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2059280745
 Transform:
   m_ObjectHideFlags: 0
