@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6867420600405546762
+--- !u!114 &-7605184598084414790
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   quality:
-    m_OverrideState: 1
-    m_Value: 3
+    m_OverrideState: 0
+    m_Value: 1
   focusMode:
-    m_OverrideState: 1
-    m_Value: 2
+    m_OverrideState: 0
+    m_Value: 0
   focusDistance:
     m_OverrideState: 0
     m_Value: 10
@@ -26,37 +26,37 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   nearFocusStart:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   nearFocusEnd:
-    m_OverrideState: 1
-    m_Value: 1000
+    m_OverrideState: 0
+    m_Value: 4
   farFocusStart:
-    m_OverrideState: 1
-    m_Value: 3500
+    m_OverrideState: 0
+    m_Value: 10
   farFocusEnd:
-    m_OverrideState: 1
-    m_Value: 10000
+    m_OverrideState: 0
+    m_Value: 20
   m_NearSampleCount:
-    m_OverrideState: 1
-    m_Value: 8
+    m_OverrideState: 0
+    m_Value: 5
   m_NearMaxBlur:
-    m_OverrideState: 1
-    m_Value: 0
+    m_OverrideState: 0
+    m_Value: 4
   m_FarSampleCount:
-    m_OverrideState: 1
-    m_Value: 8
+    m_OverrideState: 0
+    m_Value: 7
   m_FarMaxBlur:
-    m_OverrideState: 1
-    m_Value: 10.89
+    m_OverrideState: 0
+    m_Value: 8
   m_Resolution:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
   m_HighQualityFiltering:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   m_PhysicallyBased:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -71,4 +71,4 @@ MonoBehaviour:
   m_Name: WaterCamera Profile 1
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -6867420600405546762}
+  - {fileID: -7605184598084414790}
